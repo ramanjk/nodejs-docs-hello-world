@@ -21,7 +21,7 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
-  projectRoot: $(System.DefaultWorkingDirectory)/app
+  projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
 - stage: Build
